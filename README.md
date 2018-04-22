@@ -1,6 +1,6 @@
-# Token Generator
+# Token UUID Generator
 
-Token Generator using universally unique identifier (UUID) to generate tokens like:
+Token UUID Generator using universally unique identifier (UUID) to generate tokens like:
 * 94Y-AW2-B2U
 * 7XZ-C38-A5A
 * QGQ-62P-557
@@ -9,10 +9,6 @@ However, you can change it to generate in a different pattern.
 These tokens meant to be typed by users. Therefore, it will generate tokens without using 0, 1, I, L and O.
 
 This generator is based on https://github.com/jeanlescure/short-unique-id/blob/master/src/short-unique-id.js
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Installing
 

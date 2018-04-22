@@ -1,10 +1,10 @@
-const TokenGenerator = require('../src/token.generator');
+const TokenUUIDGenerator = require('../src/token.uuid.generator');
 
 describe('[Token UUID Generator]', function() {
 
     let uuid;
     beforeEach(function() {
-        uuid = new TokenGenerator();
+        uuid = new TokenUUIDGenerator();
     });
 
     it('should generate token with length 11', function() {

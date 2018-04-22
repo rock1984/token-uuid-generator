@@ -1,8 +1,8 @@
 {
-  "name": "token-generator",
+  "name": "token-uuid-generator",
   "version": "1.0.0",
-  "description": "Token Generator using random UUID. Generate Tokens like: '94Y-AW2-B2U', '7XZ-C38-A5A', 'QGQ-62P-557'",
-  "main": "token.helper.js",
+  "description": "Token UUID Generator using random UUID. Generate Tokens like: '94Y-AW2-B2U', '7XZ-C38-A5A', 'QGQ-62P-557'",
+  "main": "token.uuid.generator.js",
   "scripts": {
     "test": "node spec/support/runner.js",
     "watch": "./node_modules/.bin/nodemon --exec npm test",
