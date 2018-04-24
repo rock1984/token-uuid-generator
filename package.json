@@ -1,19 +1,27 @@
 {
-  "name": "token-uuid-generator",
-  "version": "1.0.0",
-  "description": "Token UUID Generator using random UUID. Generate Tokens like: '94Y-AW2-B2U', '7XZ-C38-A5A', 'QGQ-62P-557'",
-  "main": "token.uuid.generator.js",
-  "scripts": {
-    "test": "node spec/support/runner.js",
-    "watch": "./node_modules/.bin/nodemon --exec npm test",
-    "watch-coverage": "./node_modules/.bin/nodemon --exec npm run coverage",
-    "coverage": "nyc --include=src/ --reporter=lcov npm test"
-  },
-  "author": "Roberto Rocha Rodrigues",
-  "license": "MIT",
-  "devDependencies": {
-    "jasmine": "^3.1.0",
-    "nodemon": "^1.17.3",
-    "nyc": "^11.7.1"
-  }
+    "name": "token-uuid-generator",
+    "version": "1.0.1",
+    "description": "Token UUID Generator using random UUID. Generate Tokens like: '94Y-AW2-B2U', '7XZ-C38-A5A', 'QGQ-62P-557'",
+    "main": "src/token.uuid.generator.js",
+    "scripts": {
+        "test": "node spec/support/runner.js",
+        "watch": "./node_modules/.bin/nodemon --exec npm test",
+        "watch-coverage": "./node_modules/.bin/nodemon --exec npm run coverage",
+        "coverage": "nyc --include=src/ --reporter=lcov npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rock1984/token-uuid-generator.git"
+    },
+    "author": "Roberto Rocha Rodrigues",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rock1984/token-uuid-generator/issues"
+    },
+    "devDependencies": {
+        "jasmine": "^3.1.0",
+        "nodemon": "^1.17.3",
+        "nyc": "^11.7.1"
+    }
 }
+
